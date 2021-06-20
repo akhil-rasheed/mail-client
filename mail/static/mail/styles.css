@@ -1,0 +1,137 @@
+textarea {
+  min-height: 400px;
+}
+
+body {
+  background: url(bg.png);
+  background-position: top;
+  background-size: 100%;
+  color: #bbdce9;
+}
+
+h1, h3 {
+  color: #f7f7f7;
+}
+
+h2 {
+  color: #faf5f3;
+  float: right;
+}
+
+.email-unread {
+  background-color: #586bc0;
+  margin: 5px;
+}
+
+.email-read {
+  background-color: #054253;
+  margin: 5px;
+}
+
+.emailSection {
+  float: left;
+  align-items: flex-end;
+}
+
+.sender-section {
+  color: white;
+  background-color: #292b2c;
+  font-size: 20px;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.recipients-section {
+  background-color: #494e52;
+  font-size: 20px;
+  font-weight: bold;
+  border-style: ridge;
+  border-width: thin;
+}
+
+.fullEmailDiv {
+  background-color: black;
+  opacity: 70%;
+}
+
+.subject-fsection {
+  font-weight: bold;
+  font-size: 35px;
+  color: #aed0ee;
+}
+
+.sender-fsection {
+  font-size: 15px;
+}
+.sender-fsection p:before {
+  content: "From: ";
+}
+
+.recipients-fsection {
+  font-size: 15px;
+}
+.recipients-fsection p:before {
+  content: "To: ";
+}
+
+.timestamp-fsection {
+  font-size: 12px;
+  color: greenyellow;
+}
+
+.body-fsection {
+  background-color: black;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.readMarkSection {
+  background: url(mail-read-unread.png);
+  background-position: center;
+  background-size: 20%;
+  background-repeat: no-repeat;
+  margin-bottom: 5px;
+}
+
+.markArchivedSection {
+  background: url(mail-archive.png);
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  margin-bottom: 5px;
+}
+
+#logo {
+  color: white;
+  align-content: center;
+  margin: 5px;
+  width: fit-content;
+}
+
+.nav-bar {
+  align-self: center;
+}
+
+.emailActionDiv {
+  margin: 3px;
+  height: fit-content;
+  padding: 15px;
+}
+.emailActionDiv btn-dark {
+  margin: 10px;
+  padding: 10px;
+}
+
+.form-group input, .form-group input[disabled], .form-group input:focus {
+  border: none;
+  background-color: #1f2833;
+  color: #c5c6c7;
+}
+
+#compose-body {
+  background-color: #1f2833;
+  border: none;
+  color: #c5c6c7;
+}
+
+/*# sourceMappingURL=styles.css.map */
